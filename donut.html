@@ -1,0 +1,76 @@
+
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+            <script type="text/javascript" src="script.js"></script>
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+        <body>
+            <div class="header">
+                <h1>Donut shop simulator</h1>
+                <h2>Every baker's dream</h2>
+                <img src="giphy.gif">
+             </div>
+             <div class="body">
+                <p>Click on the location to display the number of donuts each bakery needs to bake per hour and per day</p>
+
+                <table>
+                    <tr>
+                        <th>Donut shop name</th>
+                        <th>Per hour</th>
+                        <th>Per day</th>
+                    </tr>   
+                    <tr>
+                        <td id="downtown" class="first_column">Downtown</td>
+                        <td class="second_column">
+                            <span class="dhourday"><script type="text/javascript">document.write(Downtown.donutForEachHr)</script></span>
+                        </td>      
+                        <td class="third_column">
+                            <span class="dhourday"><script type="text/javascript">document.write(Downtown.donutForDay)</script></span>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td id="capital" class="first_column">Capitol Hill</td>
+                        <td class="second_column">
+                            <span class="chourday"><script type="text/javascript">document.write(CapitolHill.donutForEachHr)</script></span>
+                        </td>      
+                        <td class="third_column">
+                            <span class="chourday"><script type="text/javascript">document.write(CapitolHill.donutForDay)</script></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="south" class="first_column">South Lake Union</td>
+                        <td class="second_column">
+                            <span class="shourday"><script type="text/javascript">document.write(SouthLakeUnion.donutForEachHr)</script></span>
+                        </td>      
+                        <td class="third_column">
+                            <span class="shourday"><script type="text/javascript">document.write(SouthLakeUnion.donutForDay)</script></span>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td id="wedge" class="first_column">Wedgewood</td>
+                        <td class="second_column">
+                            <span class="whourday"><script type="text/javascript">document.write(Wedgewood.donutForEachHr)</script></span>
+                        </td>      
+                        <td class="third_column">
+                            <span class="whourday"><script type="text/javascript">document.write(Wedgewood.donutForDay)</script></span>
+                        </td>
+                    </tr>
+                       <tr>
+                        <td id="ballard" class="first_column">Ballard</td>
+                        <td class="second_column">
+                            <span class="bhourday"><script type="text/javascript">document.write(Ballard.donutForEachHr)</script></span>
+                        </td>      
+                        <td class="third_column">
+                            <span class="bhourday"><script type="text/javascript">document.write(Ballard.donutForDay)</script></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="footer">
+                <footer>&copy 2015 Kay Ouchida</footer>
+            <div>
+        </body>
+    </html>
